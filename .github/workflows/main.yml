@@ -28,8 +28,19 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
-          npm install,
-          npm i nexe -g,
-          nexe index.js,
-          dir
+        run: npm install
+      
+      - name: Run a multi-line script
+        run: npm i nexe -g
+          
+      - name: Run a multi-line script
+        run: nexe index.js
+        
+      - run: dir  
+          
+          
+    
+
+
+
+          
