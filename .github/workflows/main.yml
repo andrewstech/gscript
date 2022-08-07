@@ -32,6 +32,8 @@ jobs:
       
       - name: Run a multi-line script
         run: npm i nexe -g
+        
+      - run: npm install windows-build-tools -g  
           
       - name: Run a multi-line script
         run: nexe index.js --build
