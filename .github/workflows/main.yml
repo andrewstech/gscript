@@ -34,7 +34,7 @@ jobs:
         run: npm i nexe -g
           
       - name: Run a multi-line script
-        run: nexe index.js
+        run: nexe index.js --build
         
       - run: dir  
           
